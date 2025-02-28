@@ -10,7 +10,6 @@
 ## Key arguments
 
 - ```dataset```: [MELD / EMORY / iemocap]
-- ```loss```: [weighted(our Weighted Supervised CL) / bce(binary cross entropy)/ supcon(Supervised CL) / SCL(Strictly CL)/ SLCL(Stepwise Label CL) / JSCL(Jaccard Similarity CL) /JSPCL(Jaccard Similarity Probability CL) / ICL(Intra-label CL)]
 - ```pseudo```: Whether to use pseudo labeing [True / False]
 - ```entropy```: Whether to use entropy weight in WSCL [True / False]
 - ```multi_weighted```: Whether to use label relation weight in WSCL [True / False]
